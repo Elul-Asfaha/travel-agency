@@ -1,8 +1,16 @@
+import traveler from "../assets/traveler.png";
+
 const Nav = () => {
     return (
-        <div className='flex w-full justify-between py-5 max-w-[1200px]'>
-            <div>Logo</div>
-            <div className='flex justify-around items-center w-full max-w-[800px]'>
+        <div className='flex w-full justify-between items-center py-5 max-w-[1200px]'>
+            <div className='flex'>
+                <img
+                    src={traveler}
+                    alt=''
+                    className='h-[25px] md:h-[35px] w-[100px] object-container'
+                />
+            </div>
+            <div className='hidden md:flex justify-around items-center w-full max-w-[800px]'>
                 <p>Home</p>
                 <p>About</p>
                 <p>Destination</p>
