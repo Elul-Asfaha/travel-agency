@@ -9,7 +9,7 @@ const Nav = () => {
                 <p>Blog</p>
                 <p>Tour</p>
             </div>
-            <button className='text-white bg-black py-2 px-4 rounded-sm'>
+            <button className='text-white bg-black py-2 px-4 w-full max-w-fit rounded-sm'>
                 Book Now
             </button>
         </div>
